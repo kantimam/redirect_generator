@@ -1,5 +1,5 @@
 {
-	"name": "georgringer/redirect-generator",
+	"name": "georgringerextended/redirect-generator",
 	"type": "typo3-cms-extension",
 	"description": "Generate redirect entries from a given set of URLs and export all to CSV",
 	"keywords": [
@@ -22,8 +22,8 @@
 		"GPL-2.0-or-later"
 	],
 	"require": {
-		"typo3/cms-core": "^9.5|| ^10.1",
-		"typo3/cms-redirects": "^9.5|| ^10.1"
+		"typo3/cms-core": "^9.5|| ^10.1|| ^11.5",
+		"typo3/cms-redirects": "^9.5|| ^10.1|| ^11.5"
 	},
 	"autoload": {
 		"psr-4": {
